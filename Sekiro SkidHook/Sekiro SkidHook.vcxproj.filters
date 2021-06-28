@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="General\Utils">
+      <UniqueIdentifier>{c8cfcba6-29ad-4b81-8524-6851e6ea352f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Utils\Memory">
+      <UniqueIdentifier>{8ac5a7e0-22ce-48ee-9816-db74b403da3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pointers">
+      <UniqueIdentifier>{39c29935-3954-4d22-9c2a-74c918096628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{21a156af-5d49-47eb-a958-6e6f8f6bc8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{0c660b28-f9e6-48be-83cf-a39e5038e0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\HookApi">
+      <UniqueIdentifier>{13a3afe6-d408-49c1-8f88-6f8cf80db856}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.hpp">
+      <Filter>General\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleMgr.hpp">
+      <Filter>General\Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerConversion.hpp">
+      <Filter>General\Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.hpp">
+      <Filter>General\Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers.h">
+      <Filter>Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedefs.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="HookDecls.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Detour.hpp">
+      <Filter>Hooking\HookApi</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT.hpp">
+      <Filter>Hooking\HookApi</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imconfig.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imgui.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imgui_impl_dx11.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imgui_impl_win32.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imgui_internal.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imstb_rectpack.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imstb_textedit.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\include\imgui\imstb_truetype.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui_demo.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui_draw.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui_impl_dx11.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui_impl_win32.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\include\imgui\imgui_widgets.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
